@@ -8,9 +8,8 @@ export default function About() {
         <p>
           I&rsquo;m a full-stack and mobile developer finishing an MS in Computer Science
           at Columbia (expected Dec 2026), after a BA in Computer Science and a minor in
-          Music at UC Berkeley. My main project, Questscape, is a shipped React Native app
-          on the App Store and Google Play with 100+ users — I own the full product
-          lifecycle, frontend to Firebase/Google Cloud backend.
+          Music at UC Berkeley. Outside of coding, I enjoy exploring the outdoors with friends,
+          which inspired me to create Questscape—a React Native app on the App Store and Google Play that helps people turn outdoor adventures into interactive games.
         </p>
 
         <div className="about-quadrants">
