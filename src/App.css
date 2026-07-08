@@ -374,6 +374,115 @@ a:focus-visible {
   opacity: 0.75;
 }
 
+/* About page — 2x2 quadrant layout */
+.about-quadrants {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  margin-top: 12px;
+}
+
+.about-quadrant {
+  padding: 28px 32px;
+}
+
+.about-quadrant:nth-child(1) {
+  padding-left: 0;
+  border-right: 1px dashed var(--line);
+  border-bottom: 1px dashed var(--line);
+}
+
+.about-quadrant:nth-child(2) {
+  border-bottom: 1px dashed var(--line);
+}
+
+.about-quadrant:nth-child(3) {
+  padding-left: 0;
+  padding-bottom: 0;
+  border-right: 1px dashed var(--line);
+}
+
+.about-quadrant:nth-child(4) {
+  padding-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .about-quadrants {
+    grid-template-columns: 1fr;
+  }
+  .about-quadrant {
+    padding: 24px 0 !important;
+    border-right: none !important;
+  }
+  .about-quadrant:not(:last-child) {
+    border-bottom: 1px dashed var(--line) !important;
+  }
+}
+
+.about-subhead {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 14px;
+  color: var(--ink);
+}
+
+/* School timeline */
+.about-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.about-timeline li {
+  border-left: 2px solid var(--line);
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.about-timeline-org {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+
+.about-timeline-role {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--lake);
+}
+
+.about-timeline-gpa {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--rust);
+}
+
+/* Skills */
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-skills-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-skills-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--rust);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 /* Projects */
 .project-list {
   display: grid;
