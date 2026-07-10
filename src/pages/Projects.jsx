@@ -10,6 +10,14 @@ const PROJECTS = [
     link: 'https://apps.apple.com/app/questscape/id6759075132',
   },
   {
+    name: 'Champion Clash',
+    tag: 'Personal Project · 2026',
+    description:
+      'A League of Legends data science web app with 1000+ unique users, letting players compare champion stats head-to-head and vote on matchups.',
+    stack: ['React', 'Vite', 'Firebase', 'Firestore'],
+    link: 'https://champion-clash-27185.web.app',
+  },
+  {
     name: 'Spotify Fingerprint',
     tag: 'Personal Project · 2026',
     description:
