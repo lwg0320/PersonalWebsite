@@ -10,6 +10,14 @@ const PROJECTS = [
     link: 'https://apps.apple.com/app/questscape/id6759075132',
   },
   {
+    name: 'Abiwork',
+    tag: 'Founder · 2026 – Present',
+    description:
+      'An AI-powered B2B startup for repetitive engineering paperwork. Built a demo agent that drafts engineering request forms from conversation, with a code-controlled workflow state machine for deterministic, auditable form logic.',
+    stack: ['LLM Agents', 'Workflow Automation', 'Agentic Harness Design'],
+    link: '#',
+  },
+  {
     name: 'Champion Clash',
     tag: 'Personal Project · 2026',
     description:
@@ -26,12 +34,36 @@ const PROJECTS = [
     link: 'https://lwg0320.github.io/soundsvisualize/',
   },
   {
+    name: 'LLM-as-Judge for Contract',
+    tag: 'Personal Project · 2026',
+    description:
+      'A synthetic Q&A generation and evaluation pipeline for a fintech compliance assistant, with 45+ examples covering direct answers, cases needing clarification, and genuine ambiguity.',
+    stack: ['LLM APIs', 'Synthetic Data', 'LLM-as-Judge'],
+    link: '#',
+  },
+  {
+    name: 'LLM Recruiter App',
+    tag: 'Personal Project · 2026',
+    description:
+      'A full-stack recruiter search app that translates plain-English hiring briefs into structured search filters.',
+    stack: ['Next.js', 'Supabase', 'Claude API'],
+    link: '#',
+  },
+  {
     name: 'Attack of the Boba Vampire',
     tag: 'Unity Game · 2023 – 2026',
     description:
       'A Unity game built from the ground up, implementing enemy AI, UI systems, tile mapping, and scene management.',
     stack: ['C#', 'Unity'],
     link: 'https://troutstick.itch.io/bobavamps-01',
+  },
+  {
+    name: 'Atari Pool & Hexsweeper',
+    tag: 'Game Development · 2026',
+    description:
+      'Playable games in a broader portfolio spanning Unity, TypeScript, and Godot. Work across the games includes AI, hex-grid board logic, and procedural generation.',
+    stack: ['Unity', 'TypeScript', 'Godot'],
+    link: '#',
   },
   {
     name: 'Music Request Discord Bot',

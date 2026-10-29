@@ -13,29 +13,40 @@ export default function Home() {
       </div>
       <div className="hero-content">
         <div className="hero-text">
+          <p className="hero-kicker">
+            <span className="hero-kicker-dot" aria-hidden="true" />
+            Builder · problem solver · product thinker
+          </p>
           <h1>David Ge</h1>
+          <p className="hero-headline">
+            I love solving problems by building useful things.
+          </p>
           <p className="hero-role">
-            MS CS @ Columbia and CS @ Berkeley · Founder of Questscape · AI and ML research at USC and LBNL
+            MS Computer Science @ Columbia · UC Berkeley alum
           </p>
           <p className="hero-line">
-            Full-stack and mobile developer with a shipped iOS/Android app live on the App
-            Store and Google Play. I also do applied ML research — published in ASME and
-            JCISE — on multi-agent systems and reinforcement learning.
+            I take ideas from first sketch to shipped software—from Questscape&rsquo;s outdoor
+            games to Abiwork&rsquo;s AI workflows for engineering teams. My USC research on
+            decentralized multi-agent reinforcement learning has been published in
+            peer-reviewed ASME and JCISE journals.
           </p>
           <div className="hero-actions">
             <Link className="btn btn-primary" to="/projects">
-              See what I&rsquo;ve built
+              Explore my work
             </Link>
             <Link className="btn btn-ghost" to="/contact">
-              Get in touch
+              Contact me
             </Link>
           </div>
         </div>
-        <img
-          className="hero-photo"
-          src={homePhoto}
-          alt="David Ge"
-        />
+        <div className="hero-photo-wrap">
+          <img className="hero-photo" src={homePhoto} alt="David Ge" />
+          <div className="hero-photo-note">
+            <span>Currently building</span>
+            <strong>Questscape + Abiwork</strong>
+            <span>Mobile games &amp; AI workflows</span>
+          </div>
+        </div>
       </div>
     </section>
   )
